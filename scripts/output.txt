@@ -1,0 +1,6 @@
+2025-08-25T19:15:30.123Z [APP] ERROR [main] com.example.app.DatabaseConnection: Failed to establish connection to database. Retrying in 60 seconds...
+2025-08-25T19:20:15.321Z [APP] ERROR [thread-7] com.example.app.ReportGenerator: Failed to fetch report data for period '2025-08-24' with error code 500. Service is unavailable.
+2025-08-25T19:45:02.000Z [WEBSERVER] ERROR [client 192.168.1.5] File does not exist: /var/www/html/wp-content/uploads/2025/08/missing-image.jpg
+2025-08-25T19:45:10.221Z [API] ERROR billing-api: {"timestamp": "2025-08-25T19:45:10.221Z", "level": "ERROR", "service": "billing-api", "transactionId": "ab123cde456f78g9", "message": "Payment processing failed. Could not connect to payment gateway.", "error": {"code": "PAYMENT_GATEWAY_TIMEOUT", "details": "Gateway timed out after 30 seconds."}, "metadata": {"userId": "user123", "paymentMethod": "credit_card"}}
+2025-08-25T19:50:11.000Z [WEBSERVER] ERROR [client 10.0.1.100] AH01071: Got error 'PHP message: Uncaught Exception: Call to undefined function broken_function() in /var/www/html/api/endpoint.php:123'
+2025-08-25T20:11:47.000Z [WEBSERVER] ERROR [client 10.0.1.55] attempt to connect to 127.0.0.1:8080 (backend-app) failed: Connection refused

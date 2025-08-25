@@ -1,0 +1,15 @@
+2025-08-25T19:15:30.123Z [APP] ERROR [main] com.example.app.DatabaseConnection: Failed to establish connection to database. Retrying in 60 seconds...
+2025-08-25T19:16:31.456Z [APP] WARN [thread-5] com.example.app.FileHandler: Insufficient disk space detected for log file rotation on /var/log/myapp. Disk usage is 92%.
+2025-08-25T19:18:55.789Z [APP] FATAL [thread-3] com.example.app.UserService: Unhandled exception in user authentication logic. NullPointerException encountered.
+2025-08-25T19:20:01.010Z [APP] INFO [main] com.example.app.ScheduledTask: Beginning daily report generation.
+2025-08-25T19:20:15.321Z [APP] ERROR [thread-7] com.example.app.ReportGenerator: Failed to fetch report data for period '2025-08-24' with error code 500. Service is unavailable.
+2025-08-25T19:21:05.987Z [APP] CRITICAL [thread-3] com.example.app.UserService: SECURITY_BREACH: Failed login attempt from IP 10.0.1.55 using unknown user 'admin'.
+2025-08-25T19:30:15.000Z [SYSTEM] ALERT server kernel: [12345.678910] Out of memory: Kill process 5678 (database_server) score 500 or sacrifice child
+2025-08-25T19:30:15.000Z [SYSTEM] ALERT server kernel: [12345.678915] Killed process 5678 (database_server)
+2025-08-25T19:32:40.000Z [SYSTEM] WARN server systemd: [WARN] Failed to start service 'data-processor.service'. See 'systemctl status data-processor.service' for details.
+2025-08-25T19:40:01.000Z [SYSTEM] ALERT server sshd: [ALERT] Authentication failed for user 'root' from 203.0.113.25 port 54321 ssh2
+2025-08-25T19:45:02.000Z [WEBSERVER] ERROR [client 192.168.1.5] File does not exist: /var/www/html/wp-content/uploads/2025/08/missing-image.jpg
+2025-08-25T19:45:10.221Z [API] ERROR billing-api: {"timestamp": "2025-08-25T19:45:10.221Z", "level": "ERROR", "service": "billing-api", "transactionId": "ab123cde456f78g9", "message": "Payment processing failed. Could not connect to payment gateway.", "error": {"code": "PAYMENT_GATEWAY_TIMEOUT", "details": "Gateway timed out after 30 seconds."}, "metadata": {"userId": "user123", "paymentMethod": "credit_card"}}
+2025-08-25T19:50:11.000Z [WEBSERVER] ERROR [client 10.0.1.100] AH01071: Got error 'PHP message: Uncaught Exception: Call to undefined function broken_function() in /var/www/html/api/endpoint.php:123'
+2025-08-25T20:05:33.000Z [WEBSERVER] WARN [client 192.168.1.120] Attempt to serve directory: /var/www/html/downloads/
+2025-08-25T20:11:47.000Z [WEBSERVER] ERROR [client 10.0.1.55] attempt to connect to 127.0.0.1:8080 (backend-app) failed: Connection refused
